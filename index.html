@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Felix Fleku - Web Developer</title>
+    <style>
+        /* Add CSS styles for the new classes */
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .left-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .right-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .right-content img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- ... (previous HTML code) ... -->
+
+    <section id="about" class="section">
+        <div class="container flex-container">
+            <div class="left-content">
+                <h2>About Me</h2>
+                <p>Hi, I'm Felix Fleku, a passionate web developer with a love for creating interactive and stunning websites.</p>
+            </div>
+            <div class="right-content">
+                <img src="pexels-lisa-fotios-811587.jpg" alt="Felix Fleku"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- ... (rest of your HTML code) ... -->
+    
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <!-- Add your portfolio projects here -->
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me via:</p>
+            <ul>
+                <li>Email: flekufelix@gmail.com</li>
+                <li>GitHub: <a href="https://github.com/anklet1" target="_blank">GitHub Profile</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/fleku-felix/?lipi=urn%3Ali%3Apage%3Ad_flagship3_resumebuilder%3BTJE72X1GTg%2BReVr%2Fiw3c6A%3D%3D" target="_blank">LinkedIn Profile</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

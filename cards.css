@@ -1,0 +1,83 @@
+body{
+    font-family: tahoma;
+    text-align: center;
+}
+header{
+    letter-spacing: 6px;
+    background: royalblue;
+    padding: 20px;
+    color: white;
+}
+h2{
+    font-size: 2em;
+    width: 100%;
+}
+section{
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.class{
+    border: 1px solid #ccc;
+    background-color: ivory;
+    margin: 25px;
+    padding: 25px;
+}
+ 
+.button, .container{
+    margin: 10px;
+}
+button, .button{
+    background:rgb(228, 53, 22) ;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.blue{
+    background: rgb(7, 92, 141);
+}
+.card{
+    border: 1px solid #ccc;
+    background-color: ivory;
+    margin: 25px;
+    padding: 25px;
+    box-shadow: 6px 6px 6px rgba( 0, 0, 0, 0.3);
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    padding: 10px;
+}
+
+#my-order{
+    background-color: #29c1c4;
+    padding: 25px;
+    display: none;
+}
+
+footer{
+    padding: 30px;
+    background: grey;
+}
+
+#foot{
+background-color: rgb(189, 178, 175);
+}
+@media screen and (min-width: 50em) {
+    .card{
+        flex-basis: 325px;
+    }
+    header h1{
+        font-size: 5em;
+    }
+    
+}
